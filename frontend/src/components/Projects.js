@@ -27,7 +27,7 @@ export const Projects = () => {
         title: "My Portfolio",
         description: "About me",
         imgUrl: portfolio,
-        href: "#",
+        href: "https://noddy-portfolio.netlify.app/",
       },
       {
         title: "Todo List",
