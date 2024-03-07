@@ -827,7 +827,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 #finalBtn .text {
-  color: red;
   z-index: 9;
   transition: all ease-in-out .3s;
 }
