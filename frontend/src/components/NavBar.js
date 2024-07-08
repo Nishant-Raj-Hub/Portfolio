@@ -8,7 +8,7 @@ import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import githubIcon from '../assets/img/github-mark-white.svg';
 // import resume from '../assets/Resume for placement web_compressed.pdf';
-import resume from '../assets/Resume for placement web.pdf';
+import resume from '../assets/Resume Nishant.pdf';
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
