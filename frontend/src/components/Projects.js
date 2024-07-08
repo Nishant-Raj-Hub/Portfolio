@@ -10,6 +10,10 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import quizmania from "../assets/img/quizmania.png";
 import sharedprefs from "../assets/img/sharedprefs.png";
 import musicplayer from "../assets/img/musicplayer.png";
+import chartjs from '../assets/img/chartjs.png'
+import cookbook from '../assets/img/cookbook.png'
+import ghostsync from '../assets/img/ghostsync.png'
+import movieexplorer from '../assets/img/movieexplorer.png'
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -18,23 +22,42 @@ export const Projects = () => {
 
     const webProjects = [
       {
+        title: "GhostSyn",
+        description: "Build using MERN stack",
+        imgUrl: ghostsync,
+        href: "https://ghost-sync.vercel.app/",
+      },
+      {
+        title: "My Portfolio",
+        description: "About me",
+        imgUrl: portfolio,
+        href: "https://portfolio-nishant-raj.vercel.app/",
+      },
+      {
+        title: "ChartJS",
+        description: "Build with chartJS",
+        imgUrl: chartjs,
+        href: "https://blackcoffer-nishant.vercel.app/",
+      },
+      {
+        title: "Cookbook",
+        description: "Build with MERN Stack",
+        imgUrl: cookbook,
+        href: "https://github.com/Nishant-Raj-Hub/cookbook",
+      },
+      {
         title: "Noddytube",
         description: "Build with Rapid API",
         imgUrl: noddytube,
         href: "https://noddytube.vercel.app",
       },
       {
-        title: "My Portfolio",
-        description: "About me",
-        imgUrl: portfolio,
-        href: "https://noddy-portfolio.netlify.app/",
+        title: "Movie Explorer",
+        description: "Build with MERN Stack",
+        imgUrl: movieexplorer,
+        href: "https://movie-explorer-nishant.vercel.app/",
       },
-      {
-        title: "Todo List",
-        description: "Build with NextJs",
-        imgUrl: todo,
-        href: "https://noddytodo.netlify.app",
-      },
+      
     ];
 
     const AndroidProjects = [
