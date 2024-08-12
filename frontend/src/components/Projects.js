@@ -43,7 +43,7 @@ export const Projects = () => {
         title: "Cookbook",
         description: "Build with MERN Stack",
         imgUrl: cookbook,
-        href: "https://github.com/Nishant-Raj-Hub/cookbook",
+        href: "https://cookbook-noddy.vercel.app/",
       },
       {
         title: "Noddytube",
